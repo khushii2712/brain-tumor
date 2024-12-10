@@ -1,0 +1,5 @@
+model.add(Flatten())
+model.add(Dense(64))
+model.add(Activation('relu'))
+model.add(Dense(1))
+model.add(Activation('sigmoid'))
